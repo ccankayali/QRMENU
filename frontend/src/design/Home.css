@@ -1,10 +1,10 @@
-/* Ana sayfa başlık stilini tanımlayın */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/*Main Page*/
 .Home {
   text-align: center;
   width: 100%;
@@ -14,11 +14,12 @@
 .menu-category {
   width: 100%;
   padding-top: 0.3rem;
-  padding-bottom: 0.3rem;
+  padding-bottom: 0.1rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   background-color: #fff;
   color: #000; /* Metin rengi */
+  border-radius: 1.5rem;
 }
 
 .menu-category.bg-dark {
@@ -37,30 +38,28 @@ li {
   
 }
 
+/* Menu Items*/
 .single-menu-item {
   border-radius: 1rem;
   margin: 10px 0;
-  border: 0.2rem solid #777777; /* Border rengini daha açık bir gri yapabilirsiniz */
-  padding: 1rem; /* Daha fazla iç kenar ekleyerek daha büyük bir kutu oluşturun */
-  transition: all 0.3s ease; /* Yumuşak bir geçiş ekleyin */
+  border: 0.2rem solid #777777;
+  padding: 1rem;
+  transition: all 0.3s ease;
 }
 
-/* Bileşen üzerine gelindiğinde gölge ekleyin */
 .single-menu-item:hover {
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Hafif bir gölge ekleyin */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Beyaz arka planlı öğelerin border rengi */
 .menu-category.bg-light .single-menu-item {
-  border-color: black; /* Beyaz arka planlı öğelerde border rengini siyah yapın */
+  border-color: black;
 }
 
-/* Siyah arka planlı öğelerin border rengi */
 .menu-category.bg-dark .single-menu-item {
-  border-color: white; /* Siyah arka planlı öğelerde border rengini beyaz yapın */
+  border-color: white;
 }
 
-
+/* Menu Headers */
 .menu-item-header {
   display: flex;
   justify-content: space-between;
@@ -70,20 +69,23 @@ li {
 
 }
 
+/* Menu Item Names */
 .menu-item-name {
   font-weight: bold;
 }
 
+/* Prices */
 .menu-item-price {
   margin-left: auto;
 }
 
+/* Description */
 .menu-description {
   position: relative;
   font-style: italic;
 }
 
-
+/* White & Black */
 .category-item.bg-dark .menu-item-description {
   border-top: #fff solid 1px;
   text-size-adjust: 0.3rem;
@@ -97,12 +99,24 @@ li {
   color: #FFFF00; 
 }
 
+/* Photos */
 .category-item-img {
-  width: 100%;
+  width: 80%;
+  overflow: hidden;
   align-self: center;
   height: auto;
-
   border-radius: 2rem;
   margin: 0.5rem 0;
   box-shadow: 1rem 2rem 5rem rgba(0, 0, 0, 0.5);
+
+}
+
+/* Menu Header */
+.category-name {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+
+.h1 {
+  font-family: 'Times New Roman', Times, serif;
 }

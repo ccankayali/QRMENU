@@ -3,7 +3,7 @@ export const categories = [
       name: 'Kahvaltı',
       sub_message: null,
       sub_category: ['Çorbalar', 'Aperatifler', 'Yumurtalar'],
-      image: 'https://simply-delicious-food.com/wp-content/uploads/2022/09/Breakfast-board28.jpg',
+      image: 'https://images.pexels.com/photos/2662875/pexels-photo-2662875.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       bg: 'light',
       items: [
         {
@@ -15,7 +15,7 @@ export const categories = [
         },
         {
           name: 'Pişi',
-          price: 20,
+          price: 10,
           sub_category: 'Aperatifler',
           description: null,
         },
@@ -97,7 +97,7 @@ export const categories = [
       name: 'Burger',
       sub_message: 'Çaylar İkramımızdır',
       sub_category: null,
-      image: 'https://s10.gifyu.com/images/burger.jpg',
+      image: 'https://images.pexels.com/photos/1108117/pexels-photo-1108117.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       bg: 'dark',
       items: [
         {
@@ -141,7 +141,7 @@ export const categories = [
       name: 'Pizza',
       sub_message: 'Çaylar İkramımızdır',
       sub_category: null,
-      image: 'https://s10.gifyu.com/images/pizzad64e56d86117e585.jpg',
+      image: 'https://images.pexels.com/photos/708587/pexels-photo-708587.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       bg: 'light',
       items: [
         {
@@ -196,10 +196,10 @@ export const categories = [
       ],
     },
     {
-      name: 'Mangal',
+      name: 'Mangal Ateşi',
       sub_message: 'Çaylar ve Salatalar İkramımızdır',
       sub_category: null,
-      image: 'https://s10.gifyu.com/images/kebap-min.jpg',
+      image: 'https://images.pexels.com/photos/3186654/pexels-photo-3186654.jpeg?auto=compress&cs=tinysrgb&w=1600',
       bg: 'dark',
       items: [
         {
@@ -288,7 +288,7 @@ export const categories = [
       name: 'Kırmızı Et',
       sub_message: 'Çaylar ve Salatalar İkramımızdır',
       sub_category: null,
-      image: 'https://s10.gifyu.com/images/bodrum.jpg',
+      image: 'https://images.pexels.com/photos/14833802/pexels-photo-14833802.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       bg: 'light',
       items: [
         {
@@ -322,7 +322,7 @@ export const categories = [
       name: 'Salatalar',
       sub_message: 'Çaylar İkramımızdır',
       sub_category: null,
-      image: 'https://s10.gifyu.com/images/salad.jpg',
+      image: 'https://images.pexels.com/photos/1639556/pexels-photo-1639556.jpeg?auto=compress&cs=tinysrgb&w=1600a',
       bg: 'dark',
       items: [
         {
@@ -366,7 +366,7 @@ export const categories = [
       name: 'Beyaz Et',
       sub_message: 'Çaylar ve Salatalar İkramımızdır',
       sub_category: null,
-      image: 'https://s10.gifyu.com/images/tavuk.jpg',
+      image: 'https://images.pexels.com/photos/10432689/pexels-photo-10432689.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       bg: 'light',
       items: [
         {
@@ -431,7 +431,7 @@ export const categories = [
       sub_message: null,
       sub_category: ['Tatlı', 'Kampanyalar'],
       image:
-        'https://s10.gifyu.com/images/fbe25bb1-130a-408f-a385-4d3765356972.jpg',
+        'https://images.pexels.com/photos/1132558/pexels-photo-1132558.jpeg?auto=compress&cs=tinysrgb&w=400',
       bg: 'dark',
       items: [
         {
@@ -495,7 +495,7 @@ export const categories = [
       name: 'Sıcak Kahveler',
       sub_message: null,
       sub_category: ['Demleme Filtre Kahve', 'Türk Kahveleri'],
-      image: 'https://s10.gifyu.com/images/kahve.jpg',
+      image: 'https://images.pexels.com/photos/414555/pexels-photo-414555.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       bg: 'light',
       items: [
         {
@@ -540,7 +540,7 @@ export const categories = [
       name: 'Sıcak İçecekler',
       sub_message: null,
       sub_category: ['Sıcak İçecekler', 'Bitki Çayları'],
-      image: 'https://s10.gifyu.com/images/vay.jpg',
+      image: 'https://images.pexels.com/photos/1493080/pexels-photo-1493080.jpeg?auto=compress&cs=tinysrgb&w=1600',
       bg: 'dark',
       items: [
         {
@@ -603,7 +603,7 @@ export const categories = [
       name: 'Soğuk İçecekler',
       sub_message: null,
       sub_category: null,
-      image: 'https://s10.gifyu.com/images/kola.jpg',
+      image: 'https://www.webtekno.com/images/editor/default/0003/80/c71a69dc8c639c3df50ea67341656da320d89558.jpeg',
       bg: 'light',
       items: [
         {
