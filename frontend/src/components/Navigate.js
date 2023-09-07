@@ -17,9 +17,9 @@ function Navigate() {
       <div className={`tab ${activeTab === 'Ingredients' ? 'active' : ''} ingredientsTab`} onClick={() => handleTabClick('Ingredients')}>
           <FontAwesomeIcon icon={faPizzaSlice} bounce size="xl" />
       </div>
-      <div className={`tab ${activeTab === 'Up' ? 'active' : ''} upTab`} onClick={() => handleTabClick('Up')}>
+      {/* <div className={`tab ${activeTab === 'Up' ? 'active' : ''} upTab`} onClick={() => handleTabClick('Up')}>
         <FontAwesomeIcon icon={faArrowUpShortWide} size="xl" />
-      </div>
+      </div> */}
       {/* <div className={`tab ${activeTab === 'Admin' ? 'active' : ''} adminTab`} onClick={() => handleTabClick('Admin')}>
         <FontAwesomeIcon icon={faUser} size="xl" />
       </div> */}
