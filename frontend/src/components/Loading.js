@@ -5,7 +5,7 @@ const Loading = () => {
   return (
     <div className="loading">
       <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className='restaurant-logo' />
-      <div class="lds-ripple"><div></div><div></div></div>
+      <span class="loader"></span>
     </div>
   );
 };

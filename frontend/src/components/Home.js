@@ -24,8 +24,8 @@ function Home() {
           <div className="log-screen">
           <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className='log-logo' />
               <div className='log-text'>
-              <h1>Hoş Geldiniz!</h1>
-              <p>Menüyü görmek için aşağıya kaydırınız.</p>
+              <h1 className='log-welcome'>Hoş Geldiniz!</h1>
+              <p className='log-p'>Menüyü görmek için aşağıya kaydırınız.</p>
               </div>
           </div>
           <div className='menu-categories'>

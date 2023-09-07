@@ -44,6 +44,15 @@ h1 {
 .log-text {
   margin-top: 5rem;
   font-family: 'Luxurious Roman', cursive;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.log-welcome {
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+.log-p {
+  animation: fadeIn 3.5s ease-in-out;
 }
 
 @keyframes fadeIn {
