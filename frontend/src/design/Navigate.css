@@ -23,15 +23,55 @@
   width: 50%; /* Tabların genişliğini ayarlayın */
 }
 
-/* Diğer stillendirmeler */
-
 .tab {
   cursor: pointer;
   padding: 15px;
   border-radius: 10vh;
 }
 
-.ingredientsTab, .upTab, .adminTab {
+.tab {
+  background-color: #555;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.tab:hover {
+  animation: fadeIn 0.5s ease-in-out;
+  background-color: rgb(255, 255, 255);
+}
+
+.tab.active {
+  animation: fadeIn 0.5s ease-in-out;
+  background-color: rgb(0, 0, 0);
+}
+
+.tab.active:hover {
+  animation: resetBackground 0.5s ease-in-out;
+  opacity: 75%;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@keyframes resetBackground {
+  0% {
+    background-color: #ffffff;
+  }
+  100% {
+    background-color: rgb(0, 0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.ingredientsTab {
   background-color: #000000;
   color: rgb(255, 255, 255);
   flex: 1; /* Eşit genişlikte tablar için */
@@ -42,13 +82,6 @@
   padding-left: 1rem;
 }
 
-/* .upTab {
-
-} */
-
-/* .adminTab {
-  padding-right: 1rem;
-} */
 
 @keyframes fadeIn {
   0% {
