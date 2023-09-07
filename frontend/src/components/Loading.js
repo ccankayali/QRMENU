@@ -4,8 +4,8 @@ import '../design/Loading.css'
 const Loading = () => {
   return (
     <div className="loading">
-      <img src="https://iili.io/J9ayEjs.jpg" alt="Restaurant Logo" className='restaurant-logo' />
-      <div className="loading-spinner"></div>
+      <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className='restaurant-logo' />
+      <div class="lds-ripple"><div></div><div></div></div>
     </div>
   );
 };

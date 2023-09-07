@@ -21,7 +21,13 @@ function Home() {
         <Loading />
       ) : (
         <div>
-          <h1 className='h1'>Gurme Restaurant</h1>
+          <div className="log-screen">
+          <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className='log-logo' />
+              <div className='log-text'>
+              <h1>Hoş Geldiniz!</h1>
+              <p>Menüyü görmek için aşağıya kaydırınız.</p>
+              </div>
+          </div>
           <div className='menu-categories'>
             {categories.map((category, index) => (
               <div

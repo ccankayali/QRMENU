@@ -1,14 +1,65 @@
+/*
+body {
+  font-family: 'Lemonada', cursive;
+}
+
+h1 {
+  font-family: 'Luxurious Roman', cursive;
+}
+
+.menu-category {
+  font-family: 'Poppins', sans-serif;
+}
+*/
+
+
+/* Default */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
+/* Log Screen (After Effect) */
+.log-screen {
+  background-color: #000;
+  color: #fff;
+  padding: 0;
+  height: 100vh; /* Ekran yüksekliği kadar uzansın */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.log-logo {
+  width: 250px;
+  height: auto;
+  animation: fadeIn 1s ease-in-out;
+  text-align: center;
+  margin: 5px auto; /* Yazıyı ortalamak için */
+}
+
+.log-text {
+  margin-top: 5rem;
+  font-family: 'Luxurious Roman', cursive;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+
 /*Main Page*/
 .Home {
   text-align: center;
   width: 100%;
-  padding-top: 0.5rem;
 }
 
 .menu-category {
@@ -38,6 +89,7 @@ li {
   
 }
 
+
 /* Menu Items*/
 .single-menu-item {
   border-radius: 1rem;
@@ -59,31 +111,37 @@ li {
   border-color: white;
 }
 
+
 /* Menu Headers */
 .menu-item-header {
   display: flex;
   justify-content: space-between;
-  font-size: 1.1rem;
+  font-size: 1rem;
   padding: 0.1rem;
-  font-family: 'Times New Roman', Times, serif;
-
+  font-family: 'Poppins', sans-serif; 
 }
+
 
 /* Menu Item Names */
 .menu-item-name {
   font-weight: bold;
+  
 }
+
 
 /* Prices */
 .menu-item-price {
   margin-left: auto;
 }
 
+
 /* Description */
 .menu-description {
   position: relative;
-  font-style: italic;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem; 
 }
+
 
 /* White & Black */
 .category-item.bg-dark .menu-item-description {
@@ -99,6 +157,7 @@ li {
   color: #FFFF00; 
 }
 
+
 /* Photos */
 .category-item-img {
   width: 80%;
@@ -111,12 +170,13 @@ li {
 
 }
 
+
 /* Menu Header */
 .category-name {
-  font-family: 'Times New Roman', Times, serif;
   font-size: 1.5rem;
+  font-family: 'Lemonada', cursive;
 }
 
 .h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins', sans-serif;
 }
