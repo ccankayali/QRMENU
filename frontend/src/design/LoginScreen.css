@@ -3,12 +3,11 @@
   background-color: #000;
   color: #fff;
   padding: 0;
-  height: 100vh; /* Ekran yüksekliği kadar uzansın */
+  height: 102vh; /* Ekran yüksekliği kadar uzansın */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: -3.5rem;
 }
 
 .log-logo {

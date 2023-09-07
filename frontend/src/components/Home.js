@@ -3,8 +3,8 @@ import '../design/Home.css';
 import { categories } from '../data';
 import MenuItem from './MenuItem';
 import Loading from './Loading';
-import Navbar from './Navbar';
 import '../design/LoginScreen.css'
+import Navigate from './Navigate';
 
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -12,7 +12,7 @@ function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3000);
+    }, 1000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -23,7 +23,6 @@ function Home() {
         <Loading />
       ) : (
         <div>
-          <Navbar />
           <div className="log-screen">
           <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className='log-logo' />
               <div className='log-text'>
@@ -51,6 +50,7 @@ function Home() {
           </div>
         </div>
       )}
+      <Navigate />
     </div>
   );
 }

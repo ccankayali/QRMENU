@@ -1,0 +1,77 @@
+.Navigate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 10%; /* Genişlik ayarını istediğiniz gibi düzenleyebilirsiniz */
+  height: 60px;
+  z-index: 1000; /* Diğer öğelerin üzerinde olması için */
+  border-radius: 5rem;
+  touch-action: none;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%; /* Tabların genişliğini ayarlayın */
+}
+
+/* Diğer stillendirmeler */
+
+.tab {
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10vh;
+  animation: fadeIn 3.5s ease-in-out;
+  touch-action: manipulation;
+}
+
+.tab.active {
+  animation-name: resetBackground;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes resetBackground {
+  from {
+    background-color: #555; /* Başlangıç değeri */
+  }
+  to {
+    background-color: #000000; /* Elementin normal arka plan rengine geri dönmesi */
+  }
+}
+
+.ingredientsTab, .upTab, .adminTab {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  flex: 1; /* Eşit genişlikte tablar için */
+  text-align: center; /* Metni ortala */
+}
+
+.ingredientsTab {
+  padding-left: 1rem;
+}
+
+.upTab {
+
+}
+
+/* .adminTab {
+  padding-right: 1rem;
+} */
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
