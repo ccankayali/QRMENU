@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPizzaSlice } from '@fortawesome/free-solid-svg-icons';
 import '../design/Navigate.css';
 // import {faUser} from '@fortawesome/free-solid-svg-icons';
-import {faArrowUpShortWide} from '@fortawesome/free-solid-svg-icons';
+// import {faArrowUpShortWide} from '@fortawesome/free-solid-svg-icons';
 
 function Navigate() {
   const [activeTab, setActiveTab] = useState('home');
