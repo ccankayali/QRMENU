@@ -3,6 +3,8 @@ import '../design/Home.css';
 import { categories } from '../data';
 import MenuItem from './MenuItem';
 import Loading from './Loading';
+import Navbar from './Navbar';
+import '../design/LoginScreen.css'
 
 function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -10,7 +12,7 @@ function Home() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 5000);
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -21,11 +23,12 @@ function Home() {
         <Loading />
       ) : (
         <div>
+          <Navbar />
           <div className="log-screen">
           <img src="https://iili.io/J90lcJf.webp" alt="Restaurant Logo" className='log-logo' />
               <div className='log-text'>
               <h1 className='log-welcome'>Hoş Geldiniz!</h1>
-              <p className='log-p'>Menüyü görmek için aşağıya kaydırınız.</p>
+              <p className='log-p'>Menüyü görmek için yukarı kaydırın.</p>
               </div>
           </div>
           <div className='menu-categories'>

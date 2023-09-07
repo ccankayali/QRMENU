@@ -21,50 +21,6 @@ h1 {
 }
 
 
-/* Log Screen (After Effect) */
-.log-screen {
-  background-color: #000;
-  color: #fff;
-  padding: 0;
-  height: 100vh; /* Ekran yüksekliği kadar uzansın */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.log-logo {
-  width: 250px;
-  height: auto;
-  animation: fadeIn 1s ease-in-out;
-  text-align: center;
-  margin: 5px auto; /* Yazıyı ortalamak için */
-}
-
-.log-text {
-  margin-top: 5rem;
-  font-family: 'Luxurious Roman', cursive;
-  animation: fadeIn 1.5s ease-in-out;
-}
-
-.log-welcome {
-  animation: fadeIn 2.5s ease-in-out;
-}
-
-.log-p {
-  animation: fadeIn 3.5s ease-in-out;
-}
-
-@keyframes fadeIn {
-  0% {
-      opacity: 0;
-  }
-  100% {
-      opacity: 1;
-  }
-}
-
-
 /*Main Page*/
 .Home {
   text-align: center;
