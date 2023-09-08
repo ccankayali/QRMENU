@@ -1,3 +1,8 @@
+ /* this file in bottom navigation bar 
+ but i need my skills develop.
+ this file postponed for now */
+
+
 .Navigate {
   display: flex;
   justify-content: space-around;
@@ -91,3 +96,4 @@
     opacity: 1;
   }
 }
+

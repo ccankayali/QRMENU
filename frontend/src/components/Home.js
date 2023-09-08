@@ -50,7 +50,6 @@ function Home() {
           </div>
         </div>
       )}
-      <Navigate />
     </div>
   );
 }
