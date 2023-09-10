@@ -1,0 +1,99 @@
+ /* this file in bottom navigation bar 
+ but i need my skills develop.
+ this file postponed for now */
+
+
+.Navigate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 10%; /* Genişlik ayarını istediğiniz gibi düzenleyebilirsiniz */
+  height: 60px;
+  z-index: 1000; /* Diğer öğelerin üzerinde olması için */
+  border-radius: 5rem;
+  touch-action: none;
+  text-rendering: auto;
+}
+
+.tab-container {
+  display: flex;
+  justify-content: space-between;
+  width: 50%; /* Tabların genişliğini ayarlayın */
+}
+
+.tab {
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10vh;
+}
+
+.tab {
+  background-color: #555;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.tab:hover {
+  animation: fadeIn 0.5s ease-in-out;
+  background-color: rgb(255, 255, 255);
+}
+
+.tab.active {
+  animation: fadeIn 0.5s ease-in-out;
+  background-color: rgb(0, 0, 0);
+}
+
+.tab.active:hover {
+  animation: resetBackground 0.5s ease-in-out;
+  opacity: 75%;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@keyframes resetBackground {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: rgb(0, 0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.ingredientsTab {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  flex: 1; /* Eşit genişlikte tablar için */
+  text-align: center; /* Metni ortala */
+}
+
+.ingredientsTab {
+  padding-left: 1rem;
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
